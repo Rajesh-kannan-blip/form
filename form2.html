@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>My form</head>
+    <body style="background-color: violet;">
+        <style>
+            #myform{
+                background-color: burlywood;
+                width: 300px;
+                padding: 24px;
+                margin-left: auto;
+                margin-right: auto;
+                
+            }
+            .letter{
+                margin: 0;
+                margin-top: auto;
+                margin-bottom: auto;
+        
+            }
+        </style>
+        <form id="myform">
+        <h1>SIGNUP</h1>
+        <div>
+            <p class="letter">Username:</p>
+            <input type="text" name="name">
+        </div>
+        <div>
+            <P class="letter">email:</p>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <p class="letter">password:</p>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <p class="letter">confirm passsword:</p>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <p class="letter">Gender:</p>
+            <input type="radio" name="male" value="male"> male</input>
+            <input type="radio" name="female" value="female"> female</input>
+
+        </div>
+        <div>
+            <p class="letter">sequrity questions:</p>
+            <select name="security question">
+                <option value="your pet name"> what is your pet name</option>
+                <option value="your native">what is your native place</option>
+            </select>
+
+        </div>
+        <div>
+            <textarea class="letter" name="answers"  cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox"> i agree terms and condition</input>
+        </div>
+        <div>
+            <input type="submit" name="submit">
+        </div>
+        </form>
+    </body>
+</html>
